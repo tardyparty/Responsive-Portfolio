@@ -108,6 +108,8 @@ h2 {
 
 
 #profile {
+    width: 225px; 
+    height: auto;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -122,12 +124,14 @@ h2 {
 }
 
 .name {
+    border: 1px solid #cccccc;
     margin-top: 3px;
     margin-bottom: 3px;
     width: 30%;
 }
 
 .message {
+    border: 1px solid #cccccc;
     margin-top: 3px;
     width: 100%;
     height: 175px;
@@ -148,15 +152,18 @@ h2 {
     display: inline-block;
     margin-right: 30px;
     margin-bottom: 30px;
+    width: 280px;
+    height: 280px;
 }
 
 .imgtext {
     position: absolute;
     display: inline-block;
     bottom: 30px;
-    width: 240px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #4aaaa5;
-    padding: 20px;
     font-size: 20pt;
     color: #ffffff;
     text-align: center;
@@ -172,4 +179,197 @@ footer {
     width: 100%;
     height: 50px;
     margin-top: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: #cccccc;
+}
+
+/* CSS for Browser (Max-width: 980px) */
+
+/* @media screen and (max-width: 980px) { */
+
+/* CSS for Tablets (max-width: 768px */
+
+/* @media screen and (max-width: 768px) { */
+
+/* CSS for Mobile (max-width: 640px) */
+
+@media screen and (max-width: 640px) {
+    header {
+        position: relative;
+        border-bottom: 1px solid #cccccc;
+        background-color: #ffffff;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .headdiv {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        position: absolute;
+        top: 0;
+        font-size: 22pt;
+        font-style: bold;
+        width: 100%;
+        height: 40px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        padding-right: 00px;
+        padding-left: 00px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    nav {
+        position: absolute;
+        bottom: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navvv {
+        font-size: 15pt;
+        text-align: center;
+        padding: 10px;
+        display: inline;
+    }
+    
+    .navvv a {
+        color: #777777;
+    }
+    
+    .navvv a:hover {
+        color: #555555;
+    }
+    
+    .border {
+        border-right: 1px solid #cccccc;
+    }
+    
+    h1 a {
+        color: #ffffff;
+    }
+    
+    /* All Page Stuff */
+    
+    body {
+        position: relative;
+        min-height: none;
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png");
+    }
+    
+    .section {
+        border: 1px solid #cccccc;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        padding: 15px;
+        background-color: #ffffff;
+        font-size: 15pt;
+        margin-top: 12px;
+    }
+    
+    h2 {
+        font-size: 22pt;
+        color: #4aaaa5;
+    }
+    
+    .title {
+        border-bottom: 1px solid #cccccc;
+        height: 40px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+    /* About Me Page */
+    
+    .aboutme {
+        color: #777777;
+        overflow: auto;
+    }
+    
+    
+    #profile {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    
+    /* Contact Page */
+    
+    .form {
+        font-size: 15pt;
+        color: #777777;
+        line-height: 1.5;
+    }
+    
+    .name {
+        border: 1px solid #cccccc;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        width: 100%;
+    }
+    
+    .message {
+        border: 1px solid #cccccc;
+        margin-top: 3px;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .submit {
+        width: 100px;
+        margin-top: 15px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }
+    
+    /* Portfolio Page */
+    
+    .container {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    
+    .imgtext {
+        position: absolute;
+        display: block;
+        bottom: 10px;
+        width: 100%;
+        background-color: #4aaaa5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20pt;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    /* Footer */
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        border-top: 10px solid #4aaaa5;
+        background-color: #666666;
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+    }
 }
