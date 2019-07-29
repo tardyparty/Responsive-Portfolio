@@ -191,11 +191,151 @@ footer {
 
 /* CSS for Browser (Max-width: 980px) */
 
-/* @media screen and (max-width: 980px) { */
+@media screen and (max-width: 980px) {
+    .headdiv {
+        position: relative;
+        height: 100%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-/* CSS for Tablets (max-width: 768px */
+    h1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 22pt;
+        font-style: bold;
+        width: 200px;
+        height: 70px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+    }
 
-/* @media screen and (max-width: 768px) { */
+    nav {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+    }
+
+    .section {
+        border: 2px solid #cccccc;
+        margin-left: 5%;
+        margin-right: auto;
+        width: 64%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: #ffffff;
+        font-size: 15pt;
+        margin-top: 30px;
+    }
+
+    .container {
+        position: relative;
+        display: inline-block;
+        margin-left: 2%
+    }
+    
+    .imgtext {
+        position: absolute;
+        display: block;
+        bottom: 30px;
+        width: 280px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #4aaaa5;
+        font-size: 20pt;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .right {
+        margin-right: 0%
+    }
+
+
+}
+
+/* CSS for Tablet (max-width: 768px */
+
+@media screen and (max-width: 768px) {
+    .headdiv {
+        position: relative;
+        height: 100%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 22pt;
+        font-style: bold;
+        width: 200px;
+        height: 70px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .section {
+        border: 2px solid #cccccc;
+        margin-left: auto;
+        margin-right: auto;
+        width: 84%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: #ffffff;
+        font-size: 15pt;
+        margin-top: 30px;
+    }
+
+    nav {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+    }
+
+    .container {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin-left: 2.5%;
+    }
+    
+    .imgtext {
+        position: absolute;
+        display: block;
+        bottom: 30px;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #4aaaa5;
+        font-size: 20pt;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .right {
+        margin-right: 0%;
+    }
+}
 
 /* CSS for Mobile (max-width: 640px) */
 
@@ -348,7 +488,7 @@ footer {
     .container {
         position: relative;
         display: block;
-        margin-left: auto;
+        margin-left: 6%;
         margin-right: auto;
         margin-bottom: 15px;
     }
@@ -357,7 +497,7 @@ footer {
         position: absolute;
         display: block;
         bottom: 10px;
-        width: 100%;
+        width: 280px;
         background-color: #4aaaa5;
         padding-top: 10px;
         padding-bottom: 10px;
